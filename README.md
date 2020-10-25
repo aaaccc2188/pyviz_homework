@@ -6,9 +6,15 @@ This dashboard is a visual analysis of historical house units, sale price, and g
 
 ### **Instructions**
 
-1. In order to run the dashboard, you can do so by running the following command in your terminal:
+1. In order to run the dashboard, you need to first activate the PyViz envrionemnt
 
-    ```python
+    ```shell
+    conda activate pyvizenv
+    ```
+
+2. Then you can run the following command in your terminal:
+
+    ```shell
     panel serve dashboard.ipynb --log-level debug --show
     ```
 
