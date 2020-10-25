@@ -1,0 +1,4 @@
+Data
+.git
+.ipynb_checkpoints
+
